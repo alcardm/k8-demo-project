@@ -9,10 +9,16 @@ To deploy:
 4. `kubectl apply -f mongo-express.yaml`
 
 To verify:
+
 ✔ `kubectl get all`
+
 ✔ `kubectl logs mongo-express-NAME`
+
 ✔ `kubectl get service`
 
+
 To assign external-IP on *minikube*
+
 👉`minikube service mongo-express-service`
+
 🍕
